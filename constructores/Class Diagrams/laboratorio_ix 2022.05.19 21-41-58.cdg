@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="laboratorio_ix">
+  <ClassDiagramComponents>
+    <Class name="Articulo" package="laboratorio_ix" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="material" type="String" visibility="private"/>
+        <Field name="color" type="String" visibility="private"/>
+        <Field name="cantidad" type="int" visibility="private"/>
+        <Field name="Precio" type="float" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="fraseC" returnType="String" visibility="public"/>
+        <Method name="fraseL" returnType="String" visibility="public"/>
+        <Method name="fraseLap" returnType="String" visibility="public"/>
+        <Method name="fraseR" returnType="String" visibility="public"/>
+        <Method name="calculo" returnType="float" visibility="public"/>
+        <Method name="getMaterial" returnType="String" visibility="public"/>
+        <Method name="setMaterial" returnType="void" visibility="public">
+          <Argument type="String" name="material"/>
+        </Method>
+        <Method name="getColor" returnType="String" visibility="public"/>
+        <Method name="setColor" returnType="void" visibility="public">
+          <Argument type="String" name="color"/>
+        </Method>
+        <Method name="getCantidad" returnType="int" visibility="public"/>
+        <Method name="setCantidad" returnType="void" visibility="public">
+          <Argument type="int" name="cantidad"/>
+        </Method>
+        <Method name="getPrecio" returnType="float" visibility="public"/>
+        <Method name="setPrecio" returnType="void" visibility="public">
+          <Argument type="float" name="Precio"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Laboratorio_IX" package="laboratorio_ix" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
